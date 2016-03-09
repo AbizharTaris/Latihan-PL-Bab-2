@@ -1,0 +1,19 @@
+Class : DataMahasiswa
+Object : setBanyakMahasiswa, setPanjang, setLebar, setNama, setNIM, setBayakKeliling, setWaktu Keliling
+Atribut : String nama, String nim, int panjang, int lebar, int kelilingLapangan, int banyakMahasiswa, int banyakKeliling, int waktuKeliling
+Behavior : Membuat sebuah constructor dan menambahkan atribut
+
+Class : KelilingLapangan
+Object : KelilingLapangan
+Atribut : int panjang, int lebar, int kelilingLapangan
+Behavior : Untuk menghitung keliling lapangan
+
+Class : TotalJarak
+Object : TotalJarak
+Atribut : int kelilingLapangan, int putaran, int jarak
+Behavior : Untuk menghitung jarak total
+
+Class : CariPemenang
+Object : CariPemenang
+Atribut : int putaran, int waktu, int pemenang
+Behavior : Untuk menentukan mahasiswa mana yang paling cepat mengelilingi lapangan
