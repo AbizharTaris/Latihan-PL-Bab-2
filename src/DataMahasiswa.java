@@ -50,5 +50,4 @@ public class DataMahasiswa {
     public void setWaktuKeliling(int wktKel){
         waktuKeliling = wktKel;
     }
-    
 }
